@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayoub Hajjam - Portefeuille</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .bg-gradient-header {
+            background-image: linear-gradient(to right, #001f3f, #003366);
+        }
+        .section-card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            padding: 2rem;
+        }
+        .skill-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+        .skill-item svg {
+            color: #003366;
+        }
+        /* Custom styles for skill sections */
+        .skill-box {
+            background-color: #f1f5f9; /* A lighter shade for the skill boxes */
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        .skill-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-header text-white p-8 md:p-12 lg:p-16 rounded-b-3xl">
+        <div class="container mx-auto flex flex-col md:flex-row items-center md:items-start justify-between">
+            <div class="text-center md:text-left mb-6 md:mb-0">
+                <h1 class="text-5xl lg:text-6xl font-extrabold tracking-tight">Ayoub HAJJAM</h1>
+                <p class="text-xl lg:text-2xl mt-2 font-light">Ingénieur Études en Électricité, Instrumentation et Automatisme</p>
+            </div>
+            <div class="flex flex-col md:items-end space-y-2 text-center md:text-right">
+                <p class="flex items-center justify-center md:justify-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-white" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M2.003 5.884L10 10.999l7.997-5.115A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                        <path d="M18 8.118l-8 5.129-8-5.129V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                    </svg>
+                    <a href="mailto:hajjamayoub1@gmail.com" class="hover:underline">hajjamayoub1@gmail.com</a>
+                </p>
+                <p class="flex items-center justify-center md:justify-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-white" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.774a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                    </svg>
+                    <a href="tel:+14184901683" class="hover:underline">+1 418-490-1683</a>
+                </p>
+                <p class="flex items-center justify-center md:justify-end text-sm">
+                    242-1111 Boul Vanier, Laval, QC, H7C 2R5
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto p-4 md:p-8 lg:p-12">
+
+        <!-- About Section -->
+        <section id="about" class="section-card mb-8">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4 border-b-2 border-gray-200 pb-2">Objectif de carrière</h2>
+            <p class="text-gray-700 leading-relaxed">
+                Contribuer au développement d'une entreprise en Électricité, Instrumentation et Automatisme, en proposant des solutions
+                innovantes, en gérant des projets et en assurant la conformité aux normes. Mettre en valeur mes compétences
+                techniques et ma coordination efficace pour des réalisations significatives dans les secteurs de l'énergie et de l'industrie.
+            </p>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section-card mb-8">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 border-gray-200 pb-2">Expérience professionnelle</h2>
+            
+            <div class="space-y-8">
+                <!-- Experience Item 1 -->
+                <div>
+                    <h3 class="text-xl md:text-2xl font-semibold text-gray-800">Technicien en Génie électrique</h3>
+                    <p class="text-gray-500 italic mt-1">TRANSELEC COMMON INC, Vinci-energies Group | Février 2024 - Aujourd'hui</p>
+                    <ul class="list-disc list-inside mt-3 text-gray-700 leading-relaxed space-y-1">
+                        <li>Entretien régulier et réparation de l'appareillage électrique HT d'Hydro-Quebec</li>
+                        <li>Test d'isolation CA, résistance de contact, et synchronisation</li>
+                        <li>Génération de rapports techniques</li>
+                    </ul>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div>
+                    <h3 class="text-xl md:text-2xl font-semibold text-gray-800">Électromécanicien</h3>
+                    <p class="text-gray-500 italic mt-1">AUTOMATISATION GRIMARD | Avril 2023 - Janvier 2022</p>
+                    <ul class="list-disc list-inside mt-3 text-gray-700 leading-relaxed space-y-1">
+                        <li>Raccordement et montage à partir de dessins techniques</li>
+                        <li>Design de dessins techniques et essais sur les équipements</li>
+                    </ul>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div>
+                    <h3 class="text-xl md:text-2xl font-semibold text-gray-800">Ingénieur Études EIA</h3>
+                    <p class="text-gray-500 italic mt-1">MECF ENGINEERING | Juillet 2020 - Janvier 2022</p>
+                    <ul class="list-disc list-inside mt-3 text-gray-700 leading-relaxed space-y-1">
+                        <li>Définition et optimisation de solutions techniques</li>
+                        <li>Rédaction de dossiers techniques et d'études de détail</li>
+                        <li>Planification et suivi de projets</li>
+                    </ul>
+                </div>
+
+                <!-- Experience Item 4 -->
+                <div>
+                    <h3 class="text-xl md:text-2xl font-semibold text-gray-800">Projeteur en Électricité et Automatisme</h3>
+                    <p class="text-gray-500 italic mt-1">ACTEMIUM, VINCI-ENERGIES GROUP | Mars 2018 - Juillet 2020</p>
+                    <ul class="list-disc list-inside mt-3 text-gray-700 leading-relaxed space-y-1">
+                        <li>Participation aux avant-projets et chiffrage</li>
+                        <li>Contrôle des études de détail et coordination de l'exécution technique</li>
+                        <li>Réalisation d'essais plateformes et participation aux mises en service</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formation Section -->
+        <section id="formation" class="section-card mb-8">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 border-gray-200 pb-2">Formation</h2>
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800">Licence Professionnelle en Systèmes Automatisés et Réseaux Industriels</h3>
+                    <p class="text-gray-500 italic mt-1">Université de Lorraine / IUT Nancy-Brabois, France | Sept. 2015 - Juin 2016</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800">Diplôme de premier cycle ingénieur (Bac+3) en Génie Electrique</h3>
+                    <p class="text-gray-500 italic mt-1">Universiapolis / Ecole Polytechnique Privée d'Agadir, Maroc | Sept. 2012 - Juin 2014</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800">Diplôme de Technicien Spécialisé en Electromécanique des systèmes Automatisés</h3>
+                    <p class="text-gray-500 italic mt-1">Institut Spécialisé de Technologie Appliquée Hay Nahda, Rabat | Sept. 2010 - Juil. 2012</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Skills Section -->
+        <section id="skills" class="section-card mb-8">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 border-gray-200 pb-2">Compétences & Logiciels</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Programming Skills -->
+                <div class="skill-box">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Compétences Particulières</h3>
+                    <ul class="text-gray-700 space-y-2">
+                        <li class="skill-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Programmation des API/IHM & SCADA Systems
+                        </li>
+                        <li class="skill-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Programmation Informatique (C#, C++, VB.net, VBA, Python)
+                        </li>
+                        <li class="skill-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Bon relationnel et travail d'équipe
+                        </li>
+                        <li class="skill-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Autodidacte et prise de décision
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Software Skills -->
+                <div class="skill-box">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Logiciels Maîtrisés</h3>
+                    <ul class="text-gray-700 space-y-2">
+                        <li class="skill-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            <strong>Technique :</strong> Step 7, WinCC, Tia Portal, Unity Pro XL...
+                        </li>
+                        <li class="skill-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            <strong>Conception :</strong> Autocad (Electrical), Solidworks, Dialux
+                        </li>
+                        <li class="skill-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            <strong>Protocoles :</strong> Modbus RTU/TCP, Profibus, Profinet...
+                        </li>
+                        <li class="skill-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            <strong>Gestion de projet :</strong> MsProject, Mindview
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Languages Section moved outside the grid for a different look -->
+            <div class="mt-6">
+                <div class="skill-box">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Langues</h3>
+                    <ul class="text-gray-700 space-y-2">
+                        <li class="skill-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            <strong>Français :</strong> Courant
+                        </li>
+                        <li class="skill-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            <strong>Anglais :</strong> Opérationnel
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Accomplishments & Hobbies Section -->
+        <section id="accomplishments" class="section-card mb-8">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 border-gray-200 pb-2">Réalisations & Loisirs</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Réalisations</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Étude, conception et mise en service d'un système SCADA redondant de 9 stations électriques de distribution
+                        moyenne tension 24Kv pour APM Terminals (Tanger Med, Maroc).
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Loisirs</h3>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Domotique</li>
+                        <li>Jeux d'Échecs</li>
+                        <li>Tir à l'arc</li>
+                        <li>Voyage</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-card text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Contact</h2>
+            <p class="text-gray-700 mb-4">N'hésitez pas à me contacter pour toute opportunité professionnelle ou collaboration.</p>
+            <div class="flex flex-col items-center space-y-2">
+                <a href="mailto:hajjamayoub1@gmail.com" class="text-blue-600 hover:underline flex items-center transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M2.003 5.884L10 10.999l7.997-5.115A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                        <path d="M18 8.118l-8 5.129-8-5.129V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                    </svg>
+                    hajjamayoub1@gmail.com
+                </a>
+                <a href="tel:+14184901683" class="text-blue-600 hover:underline flex items-center transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.774a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                    </svg>
+                    +1 418-490-1683
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-4 text-center mt-8 rounded-t-3xl">
+        <p class="text-sm">&copy; 2024 Ayoub HAJJAM. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
