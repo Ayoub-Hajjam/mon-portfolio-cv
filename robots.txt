@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ayoub-hajjam.github.io/mon-portfolio-cv/sitemap.xml
